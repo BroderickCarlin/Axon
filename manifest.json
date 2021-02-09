@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Axom",
+  "version": "0.1",
+
+  "description": "Who knows that this does, I mean really",
+
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["axon.js"]
+    }
+  ]
+
+}
